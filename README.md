@@ -1,6 +1,20 @@
-# Dueform
+# DueStack
 
 **A clearer view of what you owe.**
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![TanStack Start](https://img.shields.io/badge/TanStack_Start-20232A?style=flat-square)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-0F172A?style=flat-square&logo=tailwindcss&logoColor=06B6D4)
+![Hono](https://img.shields.io/badge/Hono-E36002?style=flat-square&logo=hono&logoColor=white)
+![Better Auth](https://img.shields.io/badge/Better_Auth-252525?style=flat-square)
+![Zod](https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white)
+![Drizzle](https://img.shields.io/badge/Drizzle_ORM-273422?style=flat-square&logo=drizzle&logoColor=C5F74F)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![PGlite](https://img.shields.io/badge/PGlite-38546D?style=flat-square)
+![Vite](https://img.shields.io/badge/Vite-252B2F?style=flat-square&logo=vite&logoColor=white)
+![Vitest](https://img.shields.io/badge/Vitest-252B2F?style=flat-square&logo=vitest&logoColor=FCC72B)
 
 Bring manually recorded credit bills and due dates into one place, see what is coming up, and explore repayment simulations in a focused dashboard.
 
@@ -8,7 +22,7 @@ Bring manually recorded credit bills and due dates into one place, see what is c
 
 ---
 
-> **Development project:** Use synthetic data only. Dueform does not connect to lenders or move money.
+> **Development project:** Use synthetic data only. DueStack does not connect to lenders or move money.
 
 ## Features
 
@@ -36,7 +50,7 @@ Captured locally with synthetic demo data.
 
 | Overview | Payment calendar |
 | :---: | :---: |
-| ![Dueform overview](docs/screenshots/overview.jpg) | ![Payment calendar](docs/screenshots/calendar.jpg) |
+| ![DueStack overview](docs/screenshots/overview.jpg) | ![Payment calendar](docs/screenshots/calendar.jpg) |
 
 | Add a bill | Login |
 | :---: | :---: |
@@ -79,9 +93,9 @@ To use PostgreSQL, set the environment variables described in [`.env.example`](.
 ## Stack
 
 - **Web:** TypeScript · React · TanStack Start · Tailwind CSS
-- **API:** Hono · Better Auth · Zod
+- **API:** Node.js · Hono · Better Auth · Zod
 - **Data:** Drizzle ORM · PostgreSQL · PGlite
-- **Testing:** Vitest
+- **Build and testing:** Vite · Vitest
 
 ## Tests
 
