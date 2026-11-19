@@ -1,0 +1,5 @@
+# The stylesheet is authored source, even though its compact formatting can look generated.
+apps/web/src/styles.css -linguist-generated
+
+# Include the SQL migration in language statistics, even though it is generated.
+packages/db/migrations/*.sql linguist-language=SQL linguist-detectable -linguist-generated

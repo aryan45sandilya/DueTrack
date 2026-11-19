@@ -6,7 +6,9 @@
 
 A unified workspace for tracking credit bills, due dates and repayments.
 
-`TanStack Start` · `Hono` · `Drizzle` · `PostgreSQL` · `Better Auth`
+`TypeScript` · `React` · `TanStack Start` · `Hono` · `Tailwind CSS`
+
+`Drizzle ORM` · `PostgreSQL / PGlite` · `Better Auth` · `Zod` · `Vitest`
 
 </div>
 
@@ -17,6 +19,18 @@ A unified workspace for tracking credit bills, due dates and repayments.
 - Track manual bills and upcoming dues in one dashboard.
 - Explore due dates in the calendar and review account activity.
 - Try payment simulations without moving money.
+
+### Screenshots
+
+*Shown with synthetic demo data.*
+
+| Overview | Payment calendar |
+| :---: | :---: |
+| ![Dueform overview](docs/screenshots/overview.jpg) | ![Payment calendar](docs/screenshots/calendar.jpg) |
+
+| Add a bill | Login |
+| :---: | :---: |
+| ![Manual bill entry](docs/screenshots/add-bill.jpg) | ![Login screen](docs/screenshots/login.jpg) |
 
 ### Get started
 
