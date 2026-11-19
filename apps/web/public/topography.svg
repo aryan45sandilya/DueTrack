@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 1600 1200" fill="none">
+ <rect width="1600" height="1200" fill="#1b2224"/>
+ <g stroke="#b4927e" stroke-width="1" opacity=".24" transform="translate(1080 185) rotate(-22)">
+  <path id="a" d="M-760-115C-598-276-427-237-274-317S24-456 168-358s112 213 278 236S735-76 795 74s-28 270-194 322-277-45-425 47-298 150-438 62-109-221-280-241-321-144-218-379Z"/>
+  <use href="#a" transform="scale(.93)"/><use href="#a" transform="scale(.86)"/><use href="#a" transform="scale(.79)"/><use href="#a" transform="scale(.72)"/><use href="#a" transform="scale(.65)"/><use href="#a" transform="scale(.58)"/><use href="#a" transform="scale(.51)"/><use href="#a" transform="scale(.44)"/><use href="#a" transform="scale(.37)"/><use href="#a" transform="scale(.30)"/><use href="#a" transform="scale(.23)"/>
+ </g>
+ <g stroke="#91a69c" stroke-width="1" opacity=".16" transform="translate(80 1130) rotate(20)">
+  <path id="b" d="M-520-40C-420-190-215-150-122-267S75-366 182-278s101 193 237 210S631 31 581 172s-202 98-307 167S66 416-27 324s-197-45-294-106-282-129-199-258Z"/>
+  <use href="#b" transform="scale(.91)"/><use href="#b" transform="scale(.82)"/><use href="#b" transform="scale(.73)"/><use href="#b" transform="scale(.64)"/><use href="#b" transform="scale(.55)"/><use href="#b" transform="scale(.46)"/><use href="#b" transform="scale(.37)"/><use href="#b" transform="scale(.28)"/>
+ </g>
+</svg>
