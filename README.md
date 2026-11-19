@@ -1,6 +1,6 @@
-# DueStack
+<h1 align="center">DueStack</h1>
 
-**A clearer view of what you owe.**
+<p align="center"><strong>A clearer view of what you owe.</strong></p>
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)
@@ -16,13 +16,21 @@
 ![Vite](https://img.shields.io/badge/Vite-252B2F?style=flat-square&logo=vite&logoColor=white)
 ![Vitest](https://img.shields.io/badge/Vitest-252B2F?style=flat-square&logo=vitest&logoColor=FCC72B)
 
-Bring manually recorded credit bills and due dates into one place, see what is coming up, and explore repayment simulations in a focused dashboard.
+DueStack is a development-stage dashboard for bringing credit obligations into one place. It is designed for people who track credit cards, buy-now-pay-later accounts, credit lines and loan instalments across different providers.
 
-[Screenshots](#screenshots) · [Features](#features) · [Architecture](#architecture) · [Quick start](#quick-start) · [Tests](#tests) · [Limitations](#limitations)
+[About](#about) · [Screenshots](#screenshots) · [Features](#features) · [Architecture](#architecture) · [Quick start](#quick-start) · [Tests](#tests) · [Limitations](#limitations)
 
 ---
 
 > **Development project:** Use synthetic data only. DueStack does not connect to lenders or move money.
+
+## About
+
+Keeping track of multiple payment dates can mean checking several apps and statements. DueStack provides a single view of manually entered bills, upcoming due dates and recorded balances, with a calendar and timeline to help users see what needs attention.
+
+The project also explores the engineering behind a financial workspace: user-scoped records, exact amounts stored in paise, duplicate warnings, audit activity and idempotent payment simulations. Visitors can explore synthetic demo data; signed-in users can create their own records in the local development database.
+
+DueStack is an early foundation. Bills are manually entered and unverified, and simulated payments do not settle real obligations. Automated discovery, lender integrations and production-ready financial workflows are planned, not currently available.
 
 ## Features
 
