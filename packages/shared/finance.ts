@@ -1,0 +1,7 @@
+export type BillStatus = 'upcoming' | 'due_soon' | 'overdue' | 'payment_pending' | 'paid' | 'partially_paid' | 'cancelled'
+export type Bill = { id:string; provider:string; type:string; reference:string; dueDate:string; amountPaise:number; status:BillStatus; source:'Demo'|'Manual'; outstandingPaise:number }
+export const money = (paise:number) => new Intl.NumberFormat('en-IN',{style:'currency',currency:'INR',minimumFractionDigits:2,maximumFractionDigits:2}).format(paise/100)
+export function dueWithin(bills:Bill[], today:string, days:number) { const start = Date.parse(`${today}T00:00:00Z`); return bills.filter(b=>!['paid','cancelled'].includes(b.status) && Date.parse(`${b.dueDate}T00:00:00Z`) >= start && Date.parse(`${b.dueDate}T00:00:00Z`) <= start + days*86400000) }
+export function duplicateCandidate(a:Bill,b:Bill) { return a.reference !== '' && a.reference === b.reference && a.provider.toLowerCase() === b.provider.toLowerCase() && a.dueDate === b.dueDate && a.amountPaise === b.amountPaise }
+export function canTransition(from:BillStatus,to:BillStatus) { const transitions:Record<BillStatus,BillStatus[]> = {upcoming:['payment_pending','paid','cancelled'],due_soon:['payment_pending','paid','cancelled'],overdue:['payment_pending','paid','partially_paid'],payment_pending:['paid','upcoming'],paid:[],partially_paid:['payment_pending','paid'],cancelled:[]}; return transitions[from].includes(to) }
+
